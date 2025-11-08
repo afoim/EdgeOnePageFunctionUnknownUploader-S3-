@@ -5,11 +5,11 @@ import { S3Client, PutObjectCommand } from '@aws-sdk/client-s3';
 
 // S3配置
 const s3Client = new S3Client({
-  region: 'us-east-1',
-  endpoint: 'https://ny-1s.enzonix.com',
+  region: '',
+  endpoint: '',
   credentials: {
-    accessKeyId: '1812kP8lxiNOA5',
-    secretAccessKey: 'HoephXxSaQZ47UrBHXo63bNJKM4jyldOebaHmDe6'
+    accessKeyId: '',
+    secretAccessKey: ''
   },
   forcePathStyle: true
 });
